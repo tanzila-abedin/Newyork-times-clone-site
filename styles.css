@@ -143,6 +143,13 @@ h2 {
   padding-bottom: 150px;
 }
 
+main aside img {
+  float: left;
+  margin-right: 10px;
+  height: 75px;
+  width: 75px;
+}
+
 .footer-two img {
   text-align: center;
   width: 200px;
@@ -169,6 +176,11 @@ h2 {
   height: 120px;
 }
 
+.box-two img {
+  text-align: center;
+  width: 200px;
+}
+
 .middle-body-2 figure img {
   display: block;
   height: 485px;
@@ -176,13 +188,6 @@ h2 {
   margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-
-main aside img {
-  float: left;
-  margin-right: 10px;
-  height: 75px;
-  width: 75px;
 }
 
 .top-head figure img {
@@ -197,11 +202,6 @@ main aside img {
 .box-one a img {
   margin: 5px;
   width: 20px;
-}
-
-.box-two img {
-  text-align: center;
-  width: 200px;
 }
 
 #suggested-articles > div > div > ul > li img{
