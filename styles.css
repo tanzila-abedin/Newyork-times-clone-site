@@ -106,7 +106,6 @@
   line-height: 24px;
 }
 
-
 #editors-picks > ul > li {
   margin: 20px;
 }
@@ -202,6 +201,15 @@ main aside img {
 .box-one a img {
   margin: 5px;
   width: 20px;
+}
+
+.copyright-sec ul {
+  display: flex;
+  font-size: 11px;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 15px;
 }
 
 #suggested-articles > div > div > ul > li img{
@@ -353,15 +361,6 @@ main aside a {
   text-align: center;
 }
 
-.copyright-sec ul {
-  display: flex;
-  font-size: 11px;
-  list-style-type: none;
-  justify-content: space-between;
-  padding-left: 0;
-  margin: 15px;
-}
-
 .footer-two a {
   text-decoration: none;
   color: black;
@@ -372,6 +371,12 @@ main aside a {
   font-size: 12px;
   line-height: 16px;
   margin-bottom: 10px;
+}
+
+.copyright-sec a {
+  font-size: 11px;
+  text-decoration: none;
+  color: gray;
 }
 
 .introduction h5 a {
@@ -457,11 +462,12 @@ main aside a {
 }
 
 .middle-body-article-three figcaption {
-  margin-bottom: 50px;
+
   color: gray;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 15px;
   line-height: 20px;
+  margin-bottom: 50px;
 } 
 
 .middle-body-article-four {
@@ -501,7 +507,6 @@ main aside a {
   padding: 10px;
   margin-right: 5px;
 }
-
 
 .conclusion-footer .comment {
   border-radius: 10px;
@@ -653,12 +658,6 @@ main aside div {
   margin: 0 auto;
 }
 
-.copyright-sec a {
-  font-size: 11px;
-  text-decoration: none;
-  color: gray;
-}
-
 .copyright-sec hr {
   border-bottom: 2px double grey;
 }
@@ -667,4 +666,3 @@ main aside div {
   justify-content: space-between;
   display: flex;
 }
-
