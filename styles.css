@@ -95,6 +95,18 @@
   padding-bottom: 150px;
 }
 
+.right-section li {
+  width: 180px;
+}
+
+.left-section li {
+  font-size: 14px;
+  list-style-type: none;
+  width: 155px;
+  line-height: 24px;
+}
+
+
 #editors-picks > ul > li {
   margin: 20px;
 }
@@ -118,6 +130,10 @@ h2 {
   width: 250px;
 }
 
+.left-section ul {
+  padding-left: 0;
+}
+
 #suggested-articles > div > ul,
 #suggested-articles > div > div > ul {
   list-style-type: none;
@@ -125,6 +141,67 @@ h2 {
 
 #space-and-astronomy > ul > li {
   padding-bottom: 150px;
+}
+
+.footer-two img {
+  text-align: center;
+  width: 200px;
+}
+
+.right-section img {
+  width: 5px;
+}
+
+.list-article2 img {
+  margin-bottom: 0;
+  height: 183px;
+  width: 285px;
+}
+
+.read-more-articles img {
+  height: 183px;
+  width: 285px;
+  margin-bottom: 0;
+}
+
+.whole-diagram img {
+  width: 220px;
+  height: 120px;
+}
+
+.middle-body-2 figure img {
+  display: block;
+  height: 485px;
+  width: 725px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main aside img {
+  float: left;
+  margin-right: 10px;
+  height: 75px;
+  width: 75px;
+}
+
+.top-head figure img {
+  display: block;
+  height: 675px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6px;
+}
+
+.box-one a img {
+  margin: 5px;
+  width: 20px;
+}
+
+.box-two img {
+  text-align: center;
+  width: 200px;
 }
 
 #suggested-articles > div > div > ul > li img{
@@ -174,6 +251,13 @@ body a {
   color: #326891;
 }
 
+main aside a {
+  font-size: 17px;
+  text-decoration-line: none;
+  margin-bottom: 10px;
+  color: black;
+}
+
 .box-one a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: black;
@@ -182,14 +266,6 @@ body a {
   font-size: 15px;
   margin-left: 15px;
   padding: 0;
-}
-.box-two img {
-  text-align: center;
-  width: 200px;
-}
-.box-one a img {
-  margin: 5px;
-  width: 20px;
 }
 
 .box-two {
@@ -241,15 +317,6 @@ body a {
   margin: 15px auto;
 }
 
-.top-head figure img {
-  display: block;
-  height: 675px;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 6px;
-}
-
 .top-icons {
   text-align: center;
   align-self: flex-end;
@@ -277,8 +344,34 @@ body a {
   color: #333;
 }
 
+.most-popular-side a{
+  color: black;
+  text-decoration: none;
+}
+
 .introduction h5 {
   text-align: center;
+}
+
+.copyright-sec ul {
+  display: flex;
+  font-size: 11px;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 15px;
+}
+
+.footer-two a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-articles a {
+  color: gray;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 10px;
 }
 
 .introduction h5 a {
@@ -288,20 +381,6 @@ body a {
 
 .introduction hr {
   width: 70px;
-}
-
-main aside a {
-  font-size: 17px;
-  text-decoration-line: none;
-  margin-bottom: 10px;
-  color: black;
-}
-
-main aside img {
-  float: left;
-  margin-right: 10px;
-  height: 75px;
-  width: 75px;
 }
 
 .middle-body-article {
@@ -329,6 +408,12 @@ main aside img {
   font-weight: 400;
   line-height: 20px;
   margin-top: 0;
+}
+
+.share-social p {
+  padding: 10px;
+  background-color: grey;
+  border-radius: 20px;
 }
 
 .middle-body-article-two footer p {
@@ -377,20 +462,11 @@ main aside img {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 15px;
   line-height: 20px;
-}
+} 
 
 .middle-body-article-four {
   max-width: 600px;
   margin: 0 auto;
-}
-
-.middle-body-2 figure img {
-  display: block;
-  height: 485px;
-  width: 725px;
-  margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .middle-body-2 figcaption {
@@ -415,6 +491,18 @@ main aside img {
   margin-bottom: 10px;
 }
 
+.comment {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #567b95;
+  color: #eee;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+
 .conclusion-footer .comment {
   border-radius: 10px;
   width: 300px;
@@ -426,12 +514,6 @@ main aside img {
   display: flex;
 }
 
-.share-social p {
-  padding: 10px;
-  background-color: grey;
-  border-radius: 20px;
-}
-
 .whole-diagram {
   display: flex;
   flex-wrap: wrap;
@@ -440,11 +522,6 @@ main aside img {
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-}
-
-.whole-diagram img {
-  width: 220px;
-  height: 120px;
 }
 
 .diagram-list {
@@ -459,35 +536,6 @@ main aside img {
   margin-bottom: 10px;
   margin-bottom: 50px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
-}
-
-.footer-articles a {
-  color: gray;
-  font-size: 12px;
-  line-height: 16px;
-  margin-bottom: 10px;
-}
-
-.comment {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: #567b95;
-  color: #eee;
-  padding: 10px;
-  margin-right: 5px;
-}
-
-.share-social p {
-  margin: 8px auto;
-  width: 15px;
-  height: 15px;
-}
-
-.most-popular-side a{
-  color: black;
-  text-decoration: none;
 }
 
 .most-popular-side {
@@ -545,12 +593,6 @@ main aside div {
   clear: right;
 }
 
-.read-more-articles img {
-  height: 183px;
-  width: 285px;
-  margin-bottom: 0;
-}
-
 .more-content {
   color: gray;
   font-size: 10px;
@@ -578,12 +620,6 @@ main aside div {
   clear: left;
 }
 
-.list-article2 img {
-  margin-bottom: 0;
-  height: 183px;
-  width: 285px;
-}
-
 .section-hr {
   margin-top: 50px;
   margin-bottom: 0;
@@ -595,14 +631,10 @@ main aside div {
   margin: 0 auto;
   max-width: 100%;
 }
+
 .footer-two header a {
   font-size: 11px;
   text-decoration: none;
-}
-
-.footer-two a {
-  text-decoration: none;
-  color: black;
 }
 
 .footer-two hr {
@@ -614,25 +646,6 @@ main aside div {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-}
-
-.left-section li {
-  font-size: 14px;
-  list-style-type: none;
-  width: 155px;
-  line-height: 24px;
-}
-
-.left-section ul {
-  padding-left: 0;
-}
-
-.right-section li {
-  width: 180px;
-}
-
-.right-section img {
-  width: 5px;
 }
 
 .copyright-sec {
@@ -650,21 +663,8 @@ main aside div {
   border-bottom: 2px double grey;
 }
 
-.copyright-sec ul {
-  display: flex;
-  font-size: 11px;
-  list-style-type: none;
-  justify-content: space-between;
-  padding-left: 0;
-  margin: 15px;
-}
-
 .logo-2 {
   justify-content: space-between;
   display: flex;
 }
 
-.footer-two img {
-  text-align: center;
-  width: 200px;
-}
