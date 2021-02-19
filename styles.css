@@ -55,6 +55,8 @@
 
 #fourth-flex-box {
   display: flex;
+  font-size: small;
+  
 }
 
 .text-flex {
@@ -126,7 +128,7 @@ h2 {
   padding-bottom: 150px;
 }
 
-#suggested-articles > div > div > ul > li {
+#suggested-articles > div > div > ul > li img{
   width: 272px;
   height: 181px;
 }
@@ -169,9 +171,10 @@ body {
   font-size: 20px;
 }
 
-body a {
+ body a {
   color: #326891;
-}
+  
+} 
 
 .box-one a {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
