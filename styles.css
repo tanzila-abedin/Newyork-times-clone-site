@@ -4,22 +4,6 @@
   src: url(https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css);
 }
 
-
-
-.ByDate {
-    display: flex;
-    padding: 5px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-section .script{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:nowrap;
-    }
-
 body{
   font-family: sans-serif;
   padding: 0;
@@ -27,6 +11,28 @@ body{
   line-height:30px;
   font-size: 20px;
 }
+/* 
+.ByDate {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+section .script{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    }
+
+/* body{
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  line-height:30px;
+  font-size: 20px;
+} */
 
 body a{
   color:#326891
@@ -576,3 +582,26 @@ main aside div{
   text-align: center ;
   width: 200px;
 }
+
+/* .box-three{
+  display: flex;
+  margin-left: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.box-three > button {
+  margin: 10px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: white;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0.05em;
+  width: 120px;
+  height: 30px;
+} */
