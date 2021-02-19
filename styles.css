@@ -465,10 +465,9 @@ main aside a {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
   font-size: 15px;
   color: gray;
-  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   margin-bottom: 50px;
 }
-                                    
+
 .middle-body-article-four {
   max-width: 600px;
   margin: 0 auto;
@@ -506,7 +505,6 @@ main aside a {
   padding: 10px;
   margin-right: 5px;
 }
-
 
 .conclusion-footer .comment {
   border-radius: 10px;
@@ -665,4 +663,3 @@ main aside div {
   justify-content: space-between;
   display: flex;
 }
-
