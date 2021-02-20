@@ -7,8 +7,6 @@
 ### View in browser
 [Link](https://)
 
-### Screenshot
-![Screenshot](assets/Screenshot.png)
 
 ## Built With
 
