@@ -18,10 +18,11 @@
   font-family: nyt-franklin, sans-serif;
 }
 
-section .script {
+section .script p {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  flex-shrink: inherit;
 }
 
 #second-image {
@@ -354,7 +355,6 @@ main aside a {
 }
 
 .top-icons {
-  text-align: center;
   align-self: flex-end;
 }
 
