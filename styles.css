@@ -18,6 +18,15 @@
   font-family: nyt-franklin, sans-serif;
 }
 
+.middle-body-article-two p {
+  color: gray;
+  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 0;
+}
+
 section .script p {
   display: flex;
   flex-direction: column;
@@ -356,6 +365,8 @@ main aside a {
 
 .top-icons {
   align-self: flex-end;
+  text-align: left;
+  padding-left: 28%;
 }
 
 .nav-icons {
@@ -432,15 +443,6 @@ main aside a {
   margin-bottom: 0;
   line-height: 1.5rem;
   font-weight: 700;
-}
-
-.middle-body-article-two p {
-  color: gray;
-  font-family: nyt-cheltenham, georgia, times new roman, times, serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  margin-top: 0;
 }
 
 .share-social button,
@@ -574,14 +576,6 @@ main aside a {
   margin-bottom: 10px;
   margin-bottom: 50px;
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
-}
-
-#most-popular { 
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  text-align: left;
-  font-size: 14px;
-  float: right;
-  width: 300px;
 }
 
 main aside {
