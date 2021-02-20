@@ -1,45 +1,31 @@
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# New York Times Clone
+# Project 1 - New York Times Article Copy
 
-> This is a clone of New York Times article page.
-There I have applied semantic HTML, Embedding images, The box model, Flexbox, Floats, Grids, Positioning.
-It has:
-- a fixed navbar at the top;
-- a header with embedded image;
-- main-content of article;
-- a social compartimet at the bottom of page;
-- another navbar at bottom;
-- footer.
+> This is the Project 1 in the Microverse course
 
+### View in browser
+[Link](https://)
+
+### Screenshot
+![Screenshot](assets/Screenshot.png)
 
 ## Built With
 
 - HTML
-- CSS (floats, flexbox, grid, positioning etc.)
-
-
+- CSS
 
 ## Authors
 
-👤 **Author1**
-
-- Tanzila Abedin
+👤 **Tanzila Abedin**
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
-## Acknowledgments
+## 📝 License
 
-- coding partner / team members
-- study material
-- etc
-=======
-
-
-
+This project is [MIT](LICENSE) licensed.
