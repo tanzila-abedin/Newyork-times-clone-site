@@ -16,15 +16,15 @@
         <label id= "name-label" class="to-left">*Name</label>
         <input autofocus id="name" type="text" placeholder="Enter your name" required><br><br>
         <label id="email-label" class="to-left">*Email</label>
-        <input type="email"  id="email" placeholder="Enter your email" required><br><br>
+        <input type="email"  id="email" placeholder="Enter your email" maxlength="20" required><br><br>
         <label class="to-left">Any Comments or Suggestions?</label>
-      <textarea placeholder="Enter your comment here..." id="text-area"></textarea>
+      <textarea placeholder="Enter your comment here..." id="text-area" maxlength="250"></textarea>
         <label class="to-left">What is your overall opinion about this article?<br></label>
-          <input class="to-right" type="radio" name="=purpose" value="leisure">
+          <input class="to-right" type="radio" name="=purpose" value="positive">
         <label>Positive</label><br>
-          <input class="to-right" type="radio" name="=purpose" value="business">
+          <input class="to-right" type="radio" name="=purpose" value="negative">
         <label>Negative </label><br>
-          <input class="to-right" type="radio" name="=purpose" value="friends & family">
+          <input class="to-right" type="radio" name="=purpose" value="neutral">
         <label>Neutral</label><br><br> 
         <label class="to-left">Subscribe to mothly newsletter</label>
         <input class="to-right" type="checkbox" value="1"><label></label><br>
