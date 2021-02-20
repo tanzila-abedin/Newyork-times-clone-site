@@ -27,6 +27,11 @@
   margin-top: 0;
 }
 
+.script {
+  max-width: 70%;
+  margin: 0 auto
+}
+
 section .script p {
   display: flex;
   flex-direction: column;
@@ -101,14 +106,18 @@ section .script p {
 #suggested-articles {
   display: flex;
   width: 80%;
-  margin-left: -30px;
+  margin: 0 auto ;
+}
+
+.article-container {
+  width: 70%;
 }
 
 #space-and-astronomy-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 10px;
 }
 
 #editors-picks-grid {
@@ -181,7 +190,7 @@ h2 {
 }
 
 #space-and-astronomy > ul > li {
-  padding-bottom: 50px;
+  padding-bottom: 150px;
 }
 
 main aside img {
@@ -654,10 +663,15 @@ main aside div {
 }
 
 .section-hr {
-  margin-top: 50px;
-  margin-bottom: 0;
-  margin-left: 0;
-  width: 865px;
+   margin-top: 50px;
+   margin-bottom: 0;
+   margin-left: 0;
+   width: 865px;
+}
+
+footer {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .footer-two {
