@@ -7,6 +7,9 @@
 ### View in browser
 [Link](https://tanzila-abedin.github.io/Newyork-times-clone-site/)
 
+### Screenshot
+![Screenshot](images/Screenshot.png)
+
 
 ## Built With
 
