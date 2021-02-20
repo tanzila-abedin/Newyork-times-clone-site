@@ -5,7 +5,7 @@
 > This is the Project 1 in the Microverse course
 
 ### View in browser
-[Link](https://)
+[Link](https://tanzila-abedin.github.io/Newyork-times-clone-site/.)
 
 
 ## Built With
