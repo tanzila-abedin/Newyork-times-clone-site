@@ -23,14 +23,6 @@ section .script {
   flex-direction: column;
   flex-wrap: nowrap;
 }
-/* 
-.introduction .script {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-} */
 
 #second-image {
   width: 850px;
@@ -147,14 +139,14 @@ h2 {
 #most-popular > ul > li {
   margin-top: 5px;
   margin-bottom: 5px;
-  border-top:  solid 1px rgba(153, 153, 153, 0.801);
+  border-top: solid 1px rgba(153, 153, 153, 0.801);
   padding-top: 15px;
   padding-bottom: 15px;
   width: 250px;
 }
 
 .left-section ul {
-  padding-right: 0px;
+  padding-right: 2px;
 }
 
 .copyright-sec ul {
