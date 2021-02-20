@@ -7,6 +7,23 @@
 .main-img {
   max-width: 100%;
 }
+ .caption figcaption {
+  font-weight: 10;
+  font-size: 15px;
+  color: #666;
+  text-align: left;
+  width: 800px;
+  margin: auto;
+  font-family: nyt-franklin, sans-serif;
+}
+
+.introduction .script {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 
 #second-image {
   width: 850px;
@@ -130,7 +147,7 @@ h2 {
 }
 
 .left-section ul {
-  padding-left: 0;
+  padding-right: 0px;
 }
 
 .copyright-sec ul {
@@ -145,10 +162,17 @@ h2 {
 #suggested-articles > div > ul,
 #suggested-articles > div > div > ul {
   list-style-type: none;
+  font-family: nyt-cheltenham, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #space-and-astronomy > ul > li {
-  padding-bottom: 150px;
+  padding-bottom: 50px;
 }
 
 main aside img {
@@ -200,8 +224,8 @@ main aside img {
 
 .top-head figure img {
   display: block;
-  height: 675px;
-  width: 1200px;
+  height: 420px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 6px;
@@ -256,7 +280,8 @@ body {
 }
 
 body a {
-  color: #326891;
+  color:black;
+  text-decoration: none;
 }
 
 main aside a {
@@ -286,16 +311,22 @@ main aside a {
   margin-right: 1%;
 }
 
-.box-three a {
+.box-three .box {
   color: white;
   background-color: #567b95;
-  border-radius: 3px;
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 1px;
   font-family: helvetica, arial, sans-serif;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 12px;
+  letter-spacing: 0.05em;
   padding: 10px;
-  margin-right: 5px;
+  margin: 10px;
+  margin-left: 10px;
+  width: 120px;
+  height: 30px;
+  line-height: 10px;
 }
 
 .top-head {
@@ -305,13 +336,17 @@ main aside a {
 
 .top-head h1 {
   color: black;
-  font-family: "Gill Sans", sans-serif;
+  font-family: nyt-cheltenham, sans-serif;
+  font-weight: bold;
   font-style: italic;
   font-size: 40px;
-  text-align: center;
+  text-align: left;
+  height: auto;
+  padding-top: 40px;
   width: 600px;
   line-height: 48px;
-  margin: 15px auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-head hr {
@@ -415,10 +450,17 @@ main aside a {
   margin-top: 0;
 }
 
-.share-social p {
-  padding: 10px;
-  background-color: grey;
-  border-radius: 20px;
+.share-social button,
+.top-icons button {
+  margin-left: 15px;
+  color: black;
+  vertical-align: middle;
+  background-color: rgb(238, 238, 238);
+  border: 1px rgb(238, 238, 238);
+  border-radius: 100%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
 }
 
 .middle-body-article-two footer p {
@@ -496,18 +538,19 @@ main aside a {
 }
 
 .comment {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  color: white;
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
   font-weight: bold;
-  text-decoration: none;
   background-color: #567b95;
-  color: #eee;
-  padding: 10px;
-  margin-right: 5px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 30px;
+  margin-right: 50px;
 }
 
 .conclusion-footer .comment {
-  border-radius: 10px;
   width: 300px;
   text-align: center;
 }
@@ -540,8 +583,9 @@ main aside a {
   font-family: nyt-imperial, georgia, "times new roman", times, serif;
 }
 
-.most-popular-side {
+#most-popular{
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  text-align: left;
   font-size: 14px;
   float: right;
   width: 300px;
